@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech in JavaScript</title>
+    <script src="main1.js" type="module"></script>
+    <style>
+        *{
+        box-sizing: border-box;
+        margin: 0;
+        }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background:linear-gradient(45deg,#B08EBF,#F2C1BD);
+        }
+
+    .container{
+        background:linear-gradient(45deg,#B08EBF,#F2C1BD);
+        display: grid;
+        gap: 20px;
+        width: 500px;
+        max-width: calc(100vw - 40px);
+        padding: 30px;
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+
+    #text{
+        display: block;
+        height: 100px;
+        border-radius: .5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        border: none;
+        resize: none;
+        padding: 8px 10px;
+        outline: 2px solid rgba(120,120,120,0.623);
+    }
+
+    button{
+        padding: 10px;
+        background: #072227;
+        color: #fff;
+        border-radius: .5rem;
+        cursor: pointer;
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;  
+    }      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="text">Text to speak:</label>
+        <textarea id="text"></textarea>
+        <button id="speak">Speak Text</button>
+    </div>
+</body>
+</html>

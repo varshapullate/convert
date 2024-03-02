@@ -1,0 +1,76 @@
+body {
+    color: whitesmoke;
+    font-family: "Borel", cursive;
+    background-image: url(mike.jpg);
+    background-repeat: no-repeat;
+    background-size:1560px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDC6DE;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+  }
+  nav ul {
+    display: flex;
+    justify-content:center;
+  }
+  nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(155, 155, 194);
+    font-size: 1.04rem;
+  }
+  .left {
+    font-size: 2.4rem;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .right{
+    margin-left: 400px;
+  }
+  footer {
+    background-color: #EDC6DE;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer h3{
+    color: black;
+  }
+  footer .footer-rights {
+    text-align: center;
+    color: black;
+    padding: 12px 0px;
+  }
+  button{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 35px;
+    background-color:#CEA2C6;
+    font-size: larger;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+  }
+  ol {
+        display: flex;
+        margin-top: 380px;
+        margin-left: 150px;
+  }
+  ol li{
+    list-style-type: none;
+    margin: 0 23px;
+  }
